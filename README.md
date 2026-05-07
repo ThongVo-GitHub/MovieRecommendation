@@ -19,3 +19,10 @@ Machine Learning: Scikit-learn (MLPClassifier, TruncatedSVD, TfidfVectorizer, co
 Data Manipulation: Pandas, NumPy
 
 Database: SQLite3
+
+## Data Structure Requirements
+To run this project locally, ensure you have the following data sources in your root directory:
+
+movies.db: An SQLite database containing a movies table with movie metadata (original_title, vote_average, popularity, genres, cast, etc.).
+
+data/ratings_small.csv: A CSV file containing user ratings (requires userId, movieId, and rating columns) for Collaborative Filtering.
